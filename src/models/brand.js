@@ -10,12 +10,6 @@ let brandSchema = new mongoose.Schema({
         required: [true, "Brand name is required"],
         trim: true, 
         maxlength: 20
-    },
-    categories: {
-        type: [{
-            type: String,
-        }],
-        trim: true,
     }
 });
 
